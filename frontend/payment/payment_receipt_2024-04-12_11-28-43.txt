@@ -1,0 +1,1 @@
+<h3>Payment Receipt</h3><p><strong>Name: </strong> amit</p><p><strong>Email: </strong> priyasmisavaliya01@gmail.com</p><p><strong>Bank Name: </strong> HDFC</p><p><strong>Paid Amount: Rs.</strong> 240</p>

@@ -1,0 +1,1 @@
+<h3>Payment Receipt</h3><p><strong>Name: </strong> priya</p><p><strong>Email: </strong> hirsavaliya22@gmail.com</p><p><strong>Bank Name: </strong> ICICI</p><p><strong>Paid Amount: Rs.</strong> 240</p>

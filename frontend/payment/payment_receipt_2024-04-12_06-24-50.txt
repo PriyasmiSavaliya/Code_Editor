@@ -1,0 +1,1 @@
+<h3>Payment Receipt</h3><p><strong>Name: </strong> rajvi</p><p><strong>Email: </strong> rajvi04aug@gmail.com</p><p><strong>Bank Name: </strong> SBI</p><p><strong>Paid Amount: Rs.</strong> 240</p>

@@ -1,0 +1,227 @@
+#footer {
+    background-color: #D5BDAF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-weight: bold;
+  
+  }
+  
+  #footer-links a {
+    color: black;
+  
+    text-decoration: none;
+  }
+  
+  #footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #footer-social {
+    margin-bottom: 20px;
+  }
+  
+  #footer-social i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  #footer-logo img {
+    max-width: 100px;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color:  #D5BDAF;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+}
+
+
+#header-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+#header-links link {
+  margin-left: 50px ;
+}
+#header-links a:hover {
+    color: white;
+}
+#links a{
+   margin-left: 5px;
+   padding-left: 50px;
+}
+#header-logo img {
+    max-width: 100px;
+    height: auto;
+    padding-left: 20px;
+}
+#links button {
+  background-color: #D6CCC2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#links button:hover {
+  background-color: #fff;
+  color: #3498db;
+}
+      @font-face {
+            font-family: myfont;
+            src: url(freakfinder.ttf);
+      }
+      @font-face {
+            font-family: mytxt;
+            src: url(foxcroft.ttf);
+        }
+      .light {
+      
+      --light-theme:#F5EBE0;
+      --light-element:#D6CCC2;
+      --light-element1:#EDEDE9;
+      --light-btn:#AB7D5F;
+      --light-font:black;
+      --head-font:mytxt;
+      --normal-font:cursive;
+      --head-color:#AB7D5F;
+  
+      background-color: var(--light-theme);
+      color:var(--light-font)
+  }
+  
+  .dark {
+  
+      --light-theme:#333548;
+      --light-element:#22223B;
+      --light-element1:#6A6662;
+      --light-btn:#B99379;
+      --light-font:beige;
+      --head-font:mytxt;
+      --normal-font:cursive;
+      --head-color:#AB7D5F;
+  
+      background-color: var(--light-theme);
+      color:var(--light-font)
+  }
+  .form-container .login-container {
+  
+  margin-top: 2%;
+  }
+    .form-container .login-container .content-part {
+      background-color:var(--light-element);
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      padding: 50px;
+      font-family:var(--normal-font);
+    }
+        .form-container .login-container .content-part .mode {
+          position: relative;
+          bottom:30px;
+          right:25px;
+          width:15px;
+        }
+        .form-container .login-container .content-part .logo {
+          font-family: var(--head-font);
+          font-size:3rem;
+          color:var(--head-color);
+        }
+        .form-container .login-container .content-part img {
+          max-width: 100%;
+        }
+        .form-container .login-container .content-part h2 {
+          font-size: 1.7rem;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .form-container .login-container .content-part p {
+          font-size: 0.9rem;
+          text-align: center;
+        } 
+    .form-container .login-container .form-part {
+      background-color:var(--light-element);
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      padding: 50px;
+      font-family:var(--normal-font);
+    }
+        .form-container .login-container .form-part .signinlink {
+          text-align: right;
+          margin-top: -20px;
+        }
+        .form-container .login-container .form-part .signinlink a {
+          font-weight: 600;
+        }
+        .form-container .login-container .form-part .formcol {
+          margin: auto;
+        }
+        .form-container .login-container .form-part .formcol h3 {
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          font-size: 1.5rem;
+        }
+        .form-container .login-container .form-part .login {
+          margin: auto;
+          margin-top: 110px;
+        }
+        .form-container .login-container .form-part .form-floating .btn {
+          width: 100%;
+          margin-top: 15px;
+          border:2px solid var(--light-font);
+          color:var(--light-font);
+        }
+        .form-container .login-container .form-part .form-floating .btn:hover {
+          background-color:var(--light-btn);
+          border: 2px solid var(--light-font);
+        }
+        .form-container .login-container .form-part .form-floating .form-control {
+          background-color: var(--light-element1);
+          color:var(--light-font);
+        }
+        .form-container .login-container .form-part .form-floating .form-control:hover {
+          border: 2px solid var(--light-btn);
+          box-shadow: none;
+        }
+        .form-container .login-container .form-part .form-floating .form-control:focus {
+          border: 2px solid var(--light-btn);
+          box-shadow: none;
+        }
+        .form-container .login-container .form-part .form-floating .form-control:active {
+          border: 2px solid var(--light-btn);
+          box-shadow: none;
+        }
+        .mode {
+          display: flex;
+      }
+      
+      .mode i {
+          margin-right: 10px; /* Optional: add some spacing between icons */
+      }
